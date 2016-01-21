@@ -11,11 +11,6 @@
  Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  med-event
 */
-
-<<<<<<< HEAD
-a {
-	color:#BE3F21;
-=======
 /* My Minimal WordPress Styling comes here */
 
 /* This is a small security for too long strings titles */
@@ -236,5 +231,15 @@ category list plugin styling
     padding: 5px 5px 5px 10px;
 }
 
+}
+
+.tribe-events-category-social-events {
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.tribe-events-category-community-engagement {
+    background-color: #FFF793;
+    padding: 5px;
 }
 
