@@ -1,0 +1,240 @@
+/*
+ Theme Name:   Med Calendar
+ Theme URI:    http://
+ Description:  WP-Bootstrap Child Theme for Med Events
+ Author:       Tom Woodward
+ Author URI:   http://bionicteaching.com
+ Template:     wp-bootstrap
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  med-event
+*/
+
+<<<<<<< HEAD
+a {
+	color:#BE3F21;
+=======
+/* My Minimal WordPress Styling comes here */
+
+/* This is a small security for too long strings titles */
+
+/*[class^="col"] {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+*/
+
+body {
+	word-wrap: break-word;
+    padding-top: 50px;
+    position: relative;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Images and wp-captions should always fit and be responsive */
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+img[class*="wp-image-"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+.wp-caption.aligncenter {
+	margin-bottom: 10px;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+}
+.wp-caption .wp-caption-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* WP Gallery */
+.gallery {
+	margin-bottom: 1.5em;
+}
+.gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.gallery dd {
+	margin: 0;
+}
+.gallery-caption {
+	display: block;
+>>>>>>> origin/master
+}
+
+a:hover {
+	background-color: #f8f8f8;
+	color: #000;
+}
+
+.response p, .response p a{
+	color:black;
+	text-decoration: none;
+}
+
+
+.page-header{
+	padding-bottom: 5px;
+    margin: 20px 0 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #efefef;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+h1.page-title, h1.page-header{
+    padding: 0px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+
+.response {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #efefef;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.response:hover {
+	background-color: #efefef;
+} 
+
+
+.banner {
+    position: relative;
+    height:250px;
+    margin-bottom: 55px;
+
+}
+.banner img {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
+}
+
+.navbar .container, .collapse, .navbar-collapse, .navbar-responsive-collapse, .navbar, .navbar-default, .navbar-fixed-top {
+	background-color: ##f8f8f8;
+}
+
+<<<<<<< HEAD
+#sidebar1 {
+	margin-top: 20px;
+}
+
+.btn-success {
+    color: #000;
+    background-color: #f8f8f8;
+    border-color: #efefef;
+   }
+=======
+ .week .front-event-title {
+			background-color:rgba(255, 255, 255, 0.6); 
+	}
+	.small {
+		height:100%;
+	}
+	.hack {
+		display: none;
+	}
+	.front-event-title{
+		margin-left: 30px;
+	}
+	.small {
+		height:300px;
+	}
+}
+
+@media(min-width: 767px){
+	.tribe-events-event-meta .column, .tribe-events-event-meta .tribe-events-meta-group {
+	min-height: 400px;
+	}
+	.hack {
+		min-height: 28px;
+	}
+	
+}
+>>>>>>> origin/master
+
+ .btn-success:hover{
+ 	background-color: #efefef;
+ 	color: #000;
+ 	border-color: #f8f8f8;
+ }
+
+/*
+category list plugin styling 
+*/
+
+.listing-item {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.listing-item .title {
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.listing-item img {
+	display: inline-block;
+	float:left;
+	padding: 5px 10px 5px 5px;
+}
+
+@media(max-width:767px){
+    .listing-item {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+}
+
